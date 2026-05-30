@@ -1,0 +1,68 @@
+############################
+# 🧠 PYTHON / GENERAL
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+############################
+# 🚫 DATASETS (IGNORE COMPLETELY)
+############################
+data/
+dataset/
+datasets/
+dataset_split/
+
+############################
+# 🖼️ IMAGES (IGNORE BULK DATA)
+############################
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+############################
+# 📊 FILE TYPES
+############################
+*.xml
+
+############################
+# 🤖 MODEL FILES (ALLOW ✅)
+############################
+# Ensure model files are tracked
+!*.keras
+!*.h5
+!*.pt
+!*.pth
+!*.onnx
+!*.engine
+!*.weights
+
+############################
+# 📦 SYSTEM FILES
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# 🧪 CACHE / TEST
+############################
+.cache/
+.pytest_cache/
+
+############################
+# 🔐 NOTE
+############################
+# If model files are very large (>100MB), use Git LFS

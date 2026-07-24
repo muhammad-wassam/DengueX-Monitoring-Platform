@@ -77,7 +77,7 @@ urlpatterns = [
     path('get-reports/', get_reports_api, name='get_reports'),
     path('detect-mosquito/', detect_mosquito_specie, name='detect_mosquito'),
     path('delete-report/<int:pk>/', delete_report, name='delete_report'),
-    path('report-details/', get_report_details, name='report_details'),
+    path('report-details/<int:pk>/', get_report_details, name='report_details'),
     path('delete-all-reports/', delete_all_reports, name='delete_all_reports'),
 
     # --- ✅ ADMIN PANEL ROUTES (Fixed) ---
